@@ -512,7 +512,7 @@ header::after{
     text-align: center;
     align-items: center;
 }
-
+/* ===== FOOTER ====*/
 .footer{
     padding: 100px 0 80px;
     background-color: #262C27;
@@ -593,6 +593,17 @@ header::after{
 .footer__logo:hover path{
     fill: #0093A1;
 }
+.name {
+ 
+  text-align: center;
+  font-size: 12px;
+}
+.footer-copyright{
+  margin-bottom: 25px;
+  color: #ffff;
+  padding-top: 25px;
+}
+/*====Adaptive======*/
 
 @media (max-width: 1230px) {
     .header__decor-text--two{
